@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         val progressBar=findViewById<ProgressBar>(R.id.progressBar)
         progressBar.visibility=View.VISIBLE
 
+        Toast.makeText(this, "Welcome to meme", Toast.LENGTH_LONG).show()
+
         val url = "https://meme-api.com/gimme"
 
 // Request a string response from the provided URL.
